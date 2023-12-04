@@ -18,11 +18,11 @@ deployAs:
           description: commercetools Composable Commerce client secret
         - key: CTP_SCOPE
           description: commercetools Composable Commerce client scope
+        - key: OG_KEY
+          description: commercetools Composable Commerce client scope
   - name: job
     applicationType: job
     endpoint: /job
-    properties:
-      schedule: "0 5 31 2 *"
     configuration:
       standardConfiguration:
         - key: CTP_REGION
